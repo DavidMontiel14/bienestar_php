@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Interfaz de Docker Desktop</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            padding-top: 20px;
+        }
+
+        .container {
+            display: flex;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .sidebar-left {
+            flex: 0 0 200px;
+            background-color: #343a40;
+            padding-top: 20px;
+            color: #fff;
+            height: 100vh;
+        }
+
+        .sidebar-left a {
+            padding: 10px;
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .main-content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            margin-bottom: 20px;
+        }
+
+        .card-header {
+            background-color: #007bff;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Menú lateral izquierdo -->
+    <div class="sidebar-left">
+        <a href="#">Página 1</a>
+        <a href="#">Página 2</a>
+        <a href="#">Página 3</a>
+        <!-- Agrega más enlaces según sea necesario -->
+    </div>
+
+    <div class="main-content">
+        <div class="header">
+            <h1>Interfaz de Docker Desktop</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">Contenedores</div>
+                    <div class="card-body">
+                        <!-- Lista de contenedores -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">Imágenes</div>
+                    <div class="card-body">
+                        <!-- Lista de imágenes -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">Redes</div>
+                    <div class="card-body">
+                        <!-- Lista de redes -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
